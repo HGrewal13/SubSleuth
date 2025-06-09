@@ -1,2 +1,2 @@
 Model,Num_Clusters,Inertia,Silhouette_Score
-KMeans,5,31070,0.17
+KMeans,5,32233,0.16
