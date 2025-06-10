@@ -5,21 +5,66 @@
     box-sizing: border-box;
 }
 
-.couponContainer {
-    border: 1px solid black;
-    width: 500px;
-    height: 300px;
+body {
+    background-color: #ececec;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#emailContainer {
+    max-width: 700px;
+    /* height: 90vh; */
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+.emailHeader {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+select {
+    text-align: center;
+}
+
+.emailHeader p {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.caption {
+    margin-right: 10px;
+    width: 200px;
+}
+
+.emailContent {
+    padding: 20px;
+}
+
+#couponContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .couponProto {
     background: #fff;
     border: 2px dashed #555;
     padding: 30px;
-    /* width: 350px; */
-    width: 100%;
-    height: 100%;
+    width: 500px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     position: relative;
+    background-image: url(./apparealImgOpacity25.jpg);
 }
 
 .couponProto::before,
@@ -53,12 +98,12 @@
     color: #333;
     font-size: 1.2em;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .couponProto p {
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 1em;
     color: #555;
 }
@@ -78,4 +123,13 @@
     font-size: 0.85em;
     color: #888;
     margin-top: 15px;
+}
+
+.emailFooter {
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #888;
+    border-top: 1px solid #ddd;
 }

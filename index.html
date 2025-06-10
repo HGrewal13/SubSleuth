@@ -7,23 +7,32 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>Choose a Customer ID</h2>
+    <div id="emailContainer">
+        <div class="emailHeader">
+            <p><strong>From:</strong> sales@hbsapparel.com</p>
+            <p><strong>To:</strong>
+                <select id="customerSelect">
+                    <option value="">-- Select Customer --</option>
+                </select>
+            </p>
+            <p><strong>Subject:</strong> HBS Apparel Promotional Coupons</p>
+        </div>
 
-    <select id="customerSelect">
-        <option value="">-- Select Customer --</option>
-    </select>
+        <div class="emailContent">
+            <div id="emailMsg"></div>
+            <div id="couponContainer"></div>
+        </div>
 
-    <div class="coupon" id="couponDisplay"></div>
+        <!-- <div id="emailMsg"></div>
 
-    <div class="couponContainer">
-        <div class="couponProto">
-            <h1>20% OFF</h1>
-            <h2>Apparel Store Exclusive</h2>
-            <p>Enjoy 20% off your next clothing purchase.<br>Valid for all items including sale!</p>
-            <div class="code">FASHION20</div>
-            <div class="footer">Valid until July 31, 2025<br>In-store & online</div>
+        <div id="couponContainer"></div> -->
+
+        <div class="emailFooter">
+            You’re receiving this email because you offered your email at HBS Apparel<br/>
+            123 Style Street, Toronto, ON, Canada
         </div>
     </div>
+
 
     <script src="scripts.js"></script>
 </body>
