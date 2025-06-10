@@ -64,7 +64,7 @@ select {
     width: 500px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     position: relative;
-    background-image: url(./apparealImgOpacity25.jpg);
+    background-image: url(./images/apparealImgOpacity25.jpg);
 }
 
 .couponProto::before,
