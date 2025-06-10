@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h1>${customer["Assigned Discount"]} OFF</h1>
                         <h2>Apparel Store Exclusive</h2>
                         <p>Enjoy ${customer["Assigned Discount"]} off your next clothing purchase.<br>Valid for all items including sale!</p>
-                        <div class="code">FASHION20</div>
+                        <div class="code">HBS APPAREL</div>
                         <div class="footer">Valid until July 31, 2025<br>In-store & online</div>
                     </div>
                 `;
@@ -43,10 +43,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     couponText += 
                     `
                         <div class="couponProto">
-                            <h1>ADDITIONAL 10% OFF</h1>
+                            <h1>ADDITIONAL 15% OFF</h1>
                             <h2>New Subscriber Exclusive</h2>
-                            <p>Enjoy an additional 10% off your next clothing purchase when you subscribe to our loyalty program.</p>
-                            <div class="code">FASHION20</div>
+                            <p>Enjoy an additional 15% off your next clothing purchase when you subscribe to our loyalty program.</p>
+                            <div class="code">HBS APPAREL</div>
                             <div class="footer">Valid until July 31, 2025<br>In-store & online</div>
                         </div>
                     `;
